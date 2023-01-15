@@ -1,1 +1,1 @@
-https://hmrrakib.github.io/architects-designee-page/
+https://hmrrakib.github.io/architects-designe
