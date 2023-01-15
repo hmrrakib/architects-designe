@@ -1,0 +1,316 @@
+*{
+    margin: 0px;
+    padding: 0px;
+} 
+/* ----------------------------------------Navigation Section------------------------------ */
+.container{
+    background: rgba(255, 144, 14, 0.1);
+    width: 1600px;
+    height: 1050px;
+    margin-bottom: 10px;
+}
+.nav-container, .header-main, .header-image{
+    width: 1600px;
+    height: 250px;
+}
+.nav-title{
+
+}
+.nav-icon {
+    display: inline-block;
+    list-style: none;
+    
+}
+.nav-title h2{
+    margin-top: 63px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 228px;
+    text-align: center;
+    float: left;
+    color: black;
+    cursor: pointer;
+}
+.nav-bar{
+    float: right;
+    margin-top: 63px;
+    margin-right: 228px;
+}
+
+.nav-icon a{
+        font-size: 18px;
+        padding: 0px 30px;
+        text-align: center;
+        text-decoration: none;
+        color: black;
+}
+.nav-icon a:hover{
+        color: cadetblue;
+        transition: all 0.4s ease 0s;
+}
+/* -----------------------------------------Header Section------------------------------------ */
+
+.header-title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.header-paragraph{
+    text-align: center;
+    color: #727272;
+    margin-bottom: 10px;
+}
+.header-button{
+    text-align : center;
+    /* Width 180px Height 64px Top 463px Left 870px Radius 8px */
+}
+.button-designe{
+    width: 140px;
+    height: 44px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    font:bold;
+    border-radius: 10px;
+    border-color:whitesmoke;
+    cursor: pointer;
+}
+/* ----------------------------------------Header Image Section------------------------------ */
+.header-image{
+    display: flex;
+    justify-content: center;
+}
+.header-banner{
+    width: 1000px;
+    height: 500px;
+}
+/* -------------------------------------------Main Section -------------------------------------*/
+
+.main-section{
+    margin-left: 301px;
+    text-align: left;
+
+}
+.main-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-content: left;
+}
+.main-images{
+    flex: 1;
+}
+.main-images:hover{
+    border-radius: 2px;
+    border-color: whitesmoke;
+}
+.main-section{
+    display: flex;
+    margin-right: 20px;
+}
+.first-title{
+    margin-top: 250px;
+   margin-left: 25px;
+    font-size: large;
+    color:#727272 ; 
+    text-align: left;
+}
+.title-bold{
+    font-weight: 900;
+   font-size: 25px;
+   color: black;
+}
+.title-color{
+    font-size: 24px;
+    font-weight: 700;
+    color: #FF900E;
+    margin-bottom: 10px;
+}
+.title-paragraph{
+    text-align: left;
+    font-size: 16px;
+    color: #727272;
+    margin: 0px 25px;
+    margin-bottom: 10px;
+}
+.title-button{
+   text-align: center;
+    width: 140px;
+    height: 44px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    cursor: pointer;
+    margin: 0px 25px;
+}
+/* --------------------------------------------------Middle Section-------------------------------- */
+/* .middle-container{
+    display: block;
+} */
+.middle-container{
+    /* background-color: rgba(245, 245, 245, 0.36); */
+    width: 1050px;
+    height: 850px;
+}
+
+.middle-container{
+    margin-left: 266px;
+    margin-right: 240px;
+    margin-top: 60px;
+}
+.middle-title{
+    font-size: 40px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    color: black;
+}
+.middle-paragraph{
+    font-size: 16px;
+    color: #727272;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+.middle-heading-1{
+    background-color: white;
+    margin-left: 10px;
+    padding: 20px;
+    box-shadow: inset -5px 5px rgba(232, 231, 231, 0.397);
+    width: 450px;
+    height: 100px;
+}
+.middle-title-1{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.middle-paragraph-1{
+    font-size: 16px;
+    color: #727272;
+}
+/* --------------------------------------Image Section -----------------------*/
+.middle-images{
+   display: inline;
+   text-align: left;
+   margin-left: 500px;
+}
+.middle-images{
+    margin-top: 50px;
+}
+.middle-image{
+    width: 500px;
+    height: 700px;
+    margin-top: -1000px;
+}
+.middle-button{
+    font-size: 40px;
+    font-size: 700;
+    color: white;
+    width: 230px;
+    height: 130px;
+    margin-left: 490px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #FF900E;
+    border-color: whitesmoke;
+    margin-top: -400px;
+}
+span{
+    font-size: 22px;
+    
+}
+/*--------------------------------------------- Some Facts--------------------------------------------- */
+.history{
+    text-align: left;
+    margin-left: 300px;
+}
+.history-title{
+    font-size: 35px;
+    font: bold;
+    margin-bottom: 10px;
+}
+.history-paragraph{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+/* -------------------------------------------Some Facts Image Section ------------------------------*/
+.work-station{
+    margin-left: 300px;
+}
+.work-images{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.work-images > div{
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+}
+.image-1{
+   text-align: center;
+   padding: 45px 36px;
+}
+.image-2{
+   text-align: center;
+   padding: 45px 40px;
+}
+.image-3{
+   text-align: center;
+   padding: 45px 45px;
+}
+.image-4{
+   text-align: center;
+   padding: 45px 50px;
+}
+/* -------------------------------------------------Sponsor Section---------------------------------------- */
+.sponsor{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+.sponsor-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.sponsor-paragraph{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 25px;
+}
+/* -------------------------------------------------Sponsor Images ---------------------------------------------*/
+.sponsor-images{
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-top: 100px;
+    text-align: center;
+}
+.sponsor-image{
+    display: flex;
+    gap: 80px;
+    flex: 1;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+/* -------------------------------------------Footer Section --------------------------------------------*/
+.footer-section{
+    margin-left: 300px;
+    margin-right: 400px;
+    text-align: center;
+}
+.footer-section{
+    width: 1200px;
+    height: 60px;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+.footer-paragraph{
+    text-align: center;
+    font-size: 18px;
+    padding: 24px 12px;
+    color: #424242;
+}
