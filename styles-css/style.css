@@ -13,9 +13,6 @@
     width: 1600px;
     height: 250px;
 }
-.nav-title{
-
-}
 .nav-icon {
     display: inline-block;
     list-style: none;
@@ -48,6 +45,7 @@
         color: cadetblue;
         transition: all 0.4s ease 0s;
 }
+
 /* -----------------------------------------Header Section------------------------------------ */
 
 .header-title{
@@ -64,7 +62,7 @@
     text-align : center;
     /* Width 180px Height 64px Top 463px Left 870px Radius 8px */
 }
-.button-designe{
+.button-designee{
     width: 140px;
     height: 44px;
     background-color: orange;
@@ -148,9 +146,6 @@
     margin: 0px 25px;
 }
 /* --------------------------------------------------Middle Section-------------------------------- */
-/* .middle-container{
-    display: block;
-} */
 .middle-container{
     /* background-color: rgba(245, 245, 245, 0.36); */
     width: 1050px;
@@ -254,17 +249,73 @@ span{
    text-align: center;
    padding: 45px 36px;
 }
+.image-1:hover {
+    background-color: #f6f9f0e5;
+    transition: all 0.4s ease 0s;
+}
+.count-1 {
+    font-size: 35px;
+    font: bold;
+    color: #424242;
+}
+
+.text-decoration-1 {
+    font-size: 16px;
+    color: #727272;
+}
 .image-2{
    text-align: center;
    padding: 45px 40px;
+}
+.image-2:hover {
+    background-color: #f6f9f0e5;
+    transition: all 0.4s ease 0s;
+}
+.count-2 {
+    font-size: 35px;
+    font: bold;
+    color: #424242;
+}
+
+.text-decoration-2 {
+    font-size: 16px;
+    color: #727272;
 }
 .image-3{
    text-align: center;
    padding: 45px 45px;
 }
+.image-3:hover{
+    background-color: #f6f9f0e5;
+    transition: all 0.4s ease 0s;
+}
+.count-3 {
+    font-size: 35px;
+    font: bold;
+    color: #424242;
+}
+
+.text-decoration-3 {
+    font-size: 16px;
+    color: #727272;
+}
 .image-4{
    text-align: center;
    padding: 45px 50px;
+}
+.image-4:hover {
+    background-color: #f6f9f0e5;
+    transition: all 0.4s ease 0s;
+}
+.count-4 {
+    font-size: 35px;
+    font: bold;
+    color: #424242;
+}
+
+.text-decoration-4 {
+    font-size: 16px;
+    color: #727272;
 }
 /* -------------------------------------------------Sponsor Section---------------------------------------- */
 .sponsor{
@@ -314,3 +365,5 @@ span{
     padding: 24px 12px;
     color: #424242;
 }
+
+/* -------------------------------------------Responsive Section------------------------------------ */
