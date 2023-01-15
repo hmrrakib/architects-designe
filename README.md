@@ -1,2 +1,2 @@
 # architects-designee
-https://hmrrakib.github.io/architects-designe/
+https://hmrrakib.github.io/architects-designee/
